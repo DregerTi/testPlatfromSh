@@ -1,0 +1,15 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+controllers_back:
+    resource: ../src/Controller/Admin
+    type: attribute
+    name_prefix: admin_
+    prefix: /admin/
+auth:
+    path: /auth
+    methods: ['POST']
+api_refresh_token:
+    path: /token/refresh
