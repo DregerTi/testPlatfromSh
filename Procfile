@@ -1,1 +1,1 @@
-web: cd api/ && /vendor/bin/heroku-php-apache2 public/
+web: api/vendor/bin/heroku-php-apache2 api/public/
